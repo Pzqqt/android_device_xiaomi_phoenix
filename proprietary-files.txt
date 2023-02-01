@@ -510,6 +510,31 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
+# Dolby
+system_ext/app/DaxUI/DaxUI.apk
+system_ext/etc/permissions/dolby_dax.xml
+system_ext/etc/permissions/privapp-com.dolby.atmos.xml
+system_ext/etc/permissions/privapp-com.dolby.daxservice.xml
+system_ext/etc/sysconfig/config-com.dolby.atmos.xml
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml
+system_ext/framework/dolby_dax.jar
+system_ext/priv-app/daxService/daxService.apk
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/lib/libdapparamstorage.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/soundfx/libatmos.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libstagefrightdolby.so
+vendor/lib64/soundfx/libatmos.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+
 # DPM
 framework/tcmclient.jar
 system_ext/bin/dpmd

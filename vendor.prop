@@ -35,8 +35,6 @@ vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=240
 vendor.audio.adm.buffering.ms=6
-vendor.audio.dolby.ds2.enabled=false
-vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.anc_headset.enable=true
@@ -147,6 +145,11 @@ debug.sf.earlyGl.app.duration=16600000
 ro.vendor.display.sensortype=2
 vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
+
+# Dolby
+ro.feature.dolby_enable=true
+vendor.audio.dolby.ds2.enabled=false
+vendor.audio.dolby.ds2.hardbypass=false
 
 # DPM
 persist.vendor.dpm.loglevel=0
